@@ -56,7 +56,7 @@ const map = L.map('map', {
 // https://api.maptiler.com/maps/streets-v4/{z}/{x}/{y}.png?key=Lp5oDUU1mBcg1rNurrg0
 
 //xG6wRSZ8Wcxgpqc5iLR3
-L.tileLayer('https://api.maptiler.com/maps/019c3d6d-3e7c-7dd2-b4f3-42eb35cc52ad/?key=DKwYEKyMxmVZVvxIoH6b#0.3/31.27676/-43.78558', {
+L.tileLayer('https://api.maptiler.com/maps/019c3d6d-3e7c-7dd2-b4f3-42eb35cc52ad/{z}/{x}/{y}.png?key=nj2tDtRzRutZvDKipNbj', {
   maxZoom: 21,
   attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
 }).addTo(map);
