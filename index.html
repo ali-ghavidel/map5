@@ -1,16 +1,42 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./public/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/leaflet.css" />
-    <link rel="stylesheet" href="./src/style.css">
-    <title>map5</title>
-  </head>
-  <body>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <div id="map" style="height: 100vh;"></div>
-    <script type="module" src="./src/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>MapLibre Map</title>
+  <!-- <link href="https://unpkg.com/maplibre-gl@2.6.1/dist/maplibre-gl.css" rel="stylesheet" /> -->
+   <link href="/src/style.css" rel="stylesheet" />
+  <style>
+    .reset-zoom-btn {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      z-index: 1;
+      padding: 6px 12px;
+      background: white;
+      border: 1px solid #888;
+      cursor: pointer;
+    }
+
+    .zoom-indicator {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: white;
+      padding: 4px 8px;
+      border: 1px solid #888;
+      font-family: sans-serif;
+      z-index: 1;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- <script src="https://unpkg.com/maplibre-gl@2.6.1/dist/maplibre-gl.js"></script> -->
+  <div id="map"></div>
+  <div class="zoom-indicator">Zoom: </div>
+  <button class="reset-zoom-btn">Reset Zoom</button>
+
+  
+  <script type="module" src="./src/main.js"></script>
+</body>
 </html>

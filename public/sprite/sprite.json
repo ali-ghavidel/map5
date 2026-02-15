@@ -1,0 +1,101 @@
+{
+  "defaultIcon": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 5,
+    "y": 5
+  },
+  "inactiveIcon": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 5,
+    "y": 5
+  },
+  "ihoairport": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 32,
+    "y": 5
+  },
+  "ihobus_stop": {
+    "width": 17,
+    "height": 17,
+    "pixelRatio": 1,
+    "x": 59,
+    "y": 5
+  },
+  "ihocamera": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 86,
+    "y": 5
+  },
+  "ihocoffee": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 113,
+    "y": 5
+  },
+
+  "ihoeducation": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 140,
+    "y": 5
+  },
+  "ihoevergreen": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 167,
+    "y": 5
+  },
+  "ihoferris_wheel": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 194,
+    "y": 5
+  },
+  "ihohospital": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 221,
+    "y": 5
+  },
+  "ihomall": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 248,
+    "y": 5
+  },
+  "ihomosque": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 275,
+    "y": 5
+  },
+  "ihorestaurant": {
+    "width": 17,
+    "height": 20,
+    "pixelRatio": 1,
+    "x": 302,
+    "y": 5
+  },
+  "ihosubway": {
+    "width": 17,
+    "height": 17,
+    "pixelRatio": 1,
+    "x": 329,
+    "y": 5
+  }
+}
